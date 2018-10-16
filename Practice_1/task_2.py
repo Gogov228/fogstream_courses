@@ -9,5 +9,5 @@
 V = int(input())
 T = int(input())
 
-print((V*T) % 109)
+print(abs(V*T) % 109)
 
